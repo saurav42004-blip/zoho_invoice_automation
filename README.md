@@ -85,7 +85,6 @@ Depending on confirmation:
 ### 5. PDF Generation & Delivery
 - Downloads the generated PDF from Zoho  
 - Sends it directly to the initiating Telegram user  
-- Optionally sends official email via Zoho  
 
 ---
 
@@ -106,10 +105,6 @@ To run this workflow, configure the following in n8n:
 - Telegram Bot Token  
 - OpenAI API Key  
 - Zoho OAuth2 Credentials  
-  - Scope: `ZohoInvoice.fullaccess.all`  
-  - Auth Query Params:
-    - `access_type=offline`
-    - `prompt=consent`
 
 ---
 
